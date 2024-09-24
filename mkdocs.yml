@@ -3,7 +3,7 @@ site_author: paligopal
 site_url: https://paligopal.github.io/reasoning_by_me
 
 nav:
-  - reasoning_by_me: calendar.md
+  - Readings: calendar.md
 
 theme:
   name: material
