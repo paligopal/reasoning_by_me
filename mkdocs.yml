@@ -1,7 +1,6 @@
 site_name: Calendar by G.P Sir
 site_author: paligopal
-site_url: https://paligopal.github.io/calendar
-site_description: 
+site_url: https://paligopal.github.io/reasoning_by_me
 
 nav:
   - reasoning_by_me: calendar.md
