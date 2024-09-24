@@ -1,0 +1,50 @@
+site_name: Calendar by G.P Sir
+site_author: paligopal
+site_url: https://paligopal.github.io/calendar
+site_description: 
+
+nav:
+  - reasoning_by_me: calendar.md
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Nunito
+    code: JetBrains Mono
+  icon:
+    logo: material/book
+    admonition:
+      abstract: material/chart-timeline-variant-shimmer
+  features:
+    - navigation.top
+    - search.highlight
+    - navigation.instant
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - admonition
+
+plugins:
+  - social
