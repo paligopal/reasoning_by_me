@@ -1,3 +1,9 @@
+---
+hide:
+    - footer
+    - navigation
+---
+
 <h1 style="text-align: center;">CALENDAR</h1>
 
 ## 1. About 
@@ -8,7 +14,7 @@ We all know there are two types of years in our calendar: the general year and t
 
 **Do you know that there is a relation between the revolution of earth around the sun and these years ?**
 
-##### 2.1 Understanding the earth's revolution and calendar year
+#### 2.1 Understanding the earth's revolution and calendar year
 - We often hear that the Earth takes one year to revolve around the sun, and that's why the calendar changes. But that’s not entirely true!
 - In reality, the Earth takes approximately 365 days, 5 hours, 48 minutes, and 12 seconds to complete one revolution around the sun. While some may not accept this, let’s assume it's accurate for this discussion. :)
 - To simplify calculations, can we round 5 hours, 48 minutes, and 12 seconds to 6 hours?
@@ -19,19 +25,19 @@ We all know there are two types of years in our calendar: the general year and t
 - To align the calendar with the Earth's revolution, we introduce a leap year, adding an extra day to the year, making it 366 days long.
 - In essence, we add one extra day every 4 years, making the leap year a regular part of our calendar system.
 
-##### 2.2 Identifying a year type (General or Leap Year)
+#### 2.2 Identifying a year type (General or Leap Year)
 In this section, we will learn how to identify whether a given year is a general year or a leap year. From the previous section, we know that a leap year occurs every 4 years, so divisibility by 4 plays a key role in this identification.
 
 **Example:**
 Given the year 1996, the task is to determine if it's a general or leap year. Simply check if 1996 is divisible by 4. Since it is, 1996 is a leap year.
 
 **Do you know century year doesn't follow the above stated rule of identifying the year type ?**
-###### 2.2.1 Identifying a century year type
+##### 2.2.1 Identifying a century year type
 - For century years, the standard leap year rule (every 4 years) does not apply.
 - Instead, century years follow a special rule: only every 4th century is a leap year, meaning the year must be divisible by 400.
     **Example-**
     Consider the year 2100, a century year. To determine whether 2100 is a leap year or a general year, we check if it is divisible by 400. Since it's not, 2100 is not a leap year. Interesting, right ? :)
-###### 2.2.2 Understanding math behind 400 rule
+##### 2.2.2 Understanding math behind 400 rule
 - Remember in section 2.1, we rounded 5 hours, 48 minutes, and 12 seconds to 6 hours?
 - By rounding, we ignored a gap of 11 minutes and 48 seconds, which equals 0.0075 days. Don’t believe it? Try converting it yourself! 😉
 - This small gap means the calendar is behind the Earth's revolution by 0.0075 days each year. It seems negligible, right? But it adds up!
