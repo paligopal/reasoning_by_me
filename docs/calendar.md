@@ -67,7 +67,9 @@ Given the year 1996, the task is to determine if it's a general or leap year. Si
 The number of days exceeding complete weeks in a given period are called **Odd Days**. The possible range for odd days is 0 to 6.
 
 **Example 3:**
+
 ⇒ For 50 days: Here, we can form 7 complete weeks with 49 days and 1 day will left out. Hence, there is **1 odd day** in 50 days.
+
 ⇒ For 76 days: Here, we can form 10 complete weeks with 70 days and 6 days will left out. Hence, there are **6 odd days** in 76 days.
 
 > To find the number of odd days for any number of days, simply divide by 7 and take the remainder. The remainder is the number of odd days.
@@ -76,6 +78,7 @@ Now, let's explore this further!
 
 #### 3.1 Finding odd days in months of the year
 Months can have 31, 30, 29, or 28 days. Let's calculate the odd days for each type:
+
 - 31-day month: 31 days = 4 complete weeks + **3 odd days**.
 
 - 30-day month: 30 days = 4 complete weeks + **2 odd days**.
@@ -86,6 +89,7 @@ Months can have 31, 30, 29, or 28 days. Let's calculate the odd days for each ty
 
 #### 3.2 Finding odd days in ```General Year``` & ```Leap Year```
 There are two types of years: general years and leap years.
+
 - General Year (365 days): 365 ÷ 7 = 1 remainder, so there is **1 odd day** in a general year.
 
 - Leap Year (366 days): 366 ÷ 7 = 2 remainder, so there are **2 odd days** in a leap year.
@@ -94,10 +98,15 @@ There are two types of years: general years and leap years.
 To find odd days in any number of years less than 100, we need to account for both general and leap years.
 
 **Example 4:** For 43 years:
+
 ⇒ There are 10 leap years (10 × 2 odd days = 20 odd days) and
+
 ⇒ 33 general years (33 × 1 odd day = 33 odd days).
+
 ⇒ Total odd days = 53.
+
 ⇒ Since odd days range from 0 to 6, divide 53 by 7. The remainder is 4.
+
 ⇒ Thus, there are **4 odd days** in 43 years.
 
 > **Alternate Method**: Simply add the number of leap years to the given years. For 43 years, we add 10 leap years in given 43 years to get 53 odd days. Dividing 53 by 7 gives a remainder of 4, confirming **4 odd days**.
@@ -175,19 +184,31 @@ What we've learned so far is that we only need to find the odd days in the first
 
 **Example 6:** 
 Find the number of odd days in 1700 years : 
+
 ⇒ 1700 years
+
 ⇒ 1600 years + 100 years
+
 ⇒ 400 years x 4 + 100 years (intention of multiple of 400)
+
 ⇒ 0 x 4 + 5 odd days
+
 ⇒ **5 odd days**
+
 (*400 years have 0 odd days and 100 years have 5 odd days*)
 
 **Example 7**: 
 Find the number of odd days in 2300 years :
+
 ⇒ 2300 years
+
 ⇒ 2000 years + 300 years (intention of multiple of 400)
+
 ⇒ 400 years x 5 + 300 years
+
 ⇒ 0 x 5 + 1 odd days
+
 ⇒ **1 odd day**
+
 (*400 years have 0 odd days and 300 years have 1 odd day*)
 
