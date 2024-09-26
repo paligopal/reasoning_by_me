@@ -76,7 +76,7 @@ The number of days exceeding complete weeks in a given period are called **Odd D
 
 Now, let's explore this further!
 
-#### 3.1 Finding odd days in months of the year
+### 3.1 Finding odd days in months of the year
 Months can have 31, 30, 29, or 28 days. Let's calculate the odd days for each type:
 
 - 31-day month: 31 days = 4 complete weeks + **3 odd days**.
@@ -87,14 +87,14 @@ Months can have 31, 30, 29, or 28 days. Let's calculate the odd days for each ty
 
 - 28-day month: 28 days = 4 complete weeks + **0 odd days** (February in a general year).
 
-#### 3.2 Finding odd days in ```General Year``` & ```Leap Year```
+### 3.2 Finding odd days in ```General Year``` & ```Leap Year```
 There are two types of years: general years and leap years.
 
 - General Year (365 days): 365 ÷ 7 = 1 remainder, so there is **1 odd day** in a general year.
 
 - Leap Year (366 days): 366 ÷ 7 = 2 remainder, so there are **2 odd days** in a leap year.
 
-#### 3.3 Finding odd days in certain years < 100
+### 3.3 Finding odd days in certain years < 100
 To find odd days in any number of years less than 100, we need to account for both general and leap years.
 
 **Example 4:** For 43 years:
@@ -111,7 +111,7 @@ To find odd days in any number of years less than 100, we need to account for bo
 
 > **Alternate Method**: Simply add the number of leap years to the given years. For 43 years, we add 10 leap years in given 43 years to get 53 odd days. Dividing 53 by 7 gives a remainder of 4, confirming **4 odd days**.
 
-#### 3.4 Finding odd days in centuries
+### 3.4 Finding odd days in centuries
 As we know from the special case (refer to Section 2.2.2), for a century to be a leap year, only every 4th century qualifies as a leap year.
 
 **Example 5:**
@@ -121,7 +121,7 @@ Out of the 100th, 200th, 300th, and 400th years, only the 400th is a leap year. 
 
 What we've learned so far is that we only need to find the odd days in the first four centuries (100, 200, 300, 400), as this pattern repeats every 400 years.
 
-##### 3.4.1 Finding odd days in 100 years
+#### 3.4.1 Finding odd days in 100 years
 - The first key point is the number of leap years in 100 years. There are 24 leap years because the 100th year is not a leap year (as it's a non-leap century).
 
 - To find the odd days in 100 years (with 24 leap years):
@@ -133,7 +133,7 @@ What we've learned so far is that we only need to find the odd days in the first
 
 - This pattern is identical for the 500th, 900th, 1300th, 1700th, 2100th centuries, and so on.
 
-##### 3.4.2 Finding odd days in 200 years
+#### 3.4.2 Finding odd days in 200 years
 - The number of odd days from the 1st to the 100th period is 5, as noted in Section 3.4.1.
 
 - Now, let’s focus on the period from the 101st to the 200th year.
@@ -148,7 +148,7 @@ What we've learned so far is that we only need to find the odd days in the first
 
 - This pattern is identical for the 600th, 1000th, 1400th, 1800th, 2200th centuries, and so on.
 
-##### 3.4.3 Finding odd days in 300 years
+#### 3.4.3 Finding odd days in 300 years
 - The number of odd days from the 1st to the 200th period is 3, as stated in Section 3.4.2.
 
 - Now, let’s focus on the period from the 201st to the 300th year.
@@ -163,7 +163,7 @@ What we've learned so far is that we only need to find the odd days in the first
 
 - This pattern is identical for the 700th, 1100th, 1500th, 1900th, 2300th centuries, and so on.
 
-##### 3.4.4 Finding odd days in 400 years
+#### 3.4.4 Finding odd days in 400 years
 - The number of odd days from the 1st to the 300th period is 1, as noted in Section 3.4.3.
 
 - Now, let's focus on the period from the 301st to the 400th year.
@@ -211,4 +211,48 @@ Find the number of odd days in 2300 years :
 ⇒ **1 odd day**
 
 (*400 years have 0 odd days and 300 years have 1 odd day*)
+
+
+## 4. Dedicated days for Odd Days Range
+The range of odd days is from 0 to 6. In the real calendar, each odd day corresponds to a specific day of the week. The table below shows the mapping of odd days to their respective days of the week:
+
+<div style="text-align: center;">
+    <table style="display: flex; justify-content: center; margin: 0 auto;">
+        <tr>
+            <th> Odd Day </th>
+            <th> Dedicated Day of Week </th>
+        </tr>
+        <tr>
+            <td> 0 </td>
+            <td> Sunday </td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> Monday </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> Tuesday </td>
+        </tr>
+        <tr>
+            <td> 3 </td>
+            <td> Wednesday </td>
+        </tr>
+        <tr>
+            <td> 4 </td>
+            <td> tdursday </td>
+        </tr>
+        <tr>
+            <td> 5 </td>
+            <td> Friday </td>
+        </tr>
+        <tr>
+            <td> 6 </td>
+            <td> Saturday </td>
+        </tr>
+    </table>
+    <h6 style="text-align: center;">(Table 1.1)</h6>
+</div>
+
+The first day of the calendar, Monday (01/01/0001), corresponds to 1 odd day. Hence, in the table 1.1 the monday was dedicated to odd day no. 1.
 
