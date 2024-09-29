@@ -256,3 +256,24 @@ The range of odd days is from 0 to 6. In the real calendar, each odd day corresp
 
 The first day of the calendar, Monday (01/01/0001), corresponds to 1 odd day. Hence, in the table 1.1 the monday was dedicated to odd day no. 1.
 
+## 5. Understanding the repitition of calendar
+Sometimes the question is asked based upon the repitition of the calendar. Saying two calendar same means the day on each and every date of a calendar is same in another calendar. Below are the listed conditions for making two calendars same :
+- Both the calendar should be of same type like either both should be general year or leap year.
+- The day on 1st January of both calendars should be same, OR
+- The number of odd days between the 1st Jan of calendars should be zero.
+
+**Example: 8** Find the calendar year which is same as 2002 - 
+a) 2008
+b) 2010
+c) 2013
+d) 2012
+
+Solution - The year 2002 is a general year, so we need to find another general year with the same calendar.
+
+- Option a) 2008 is a leap year, so it can't be the correct answer.
+
+- Now, calculating the number of odd days from 1st Jan 2002 to 1st Jan 2010 gives 3 odd days, which doesn't match the condition for the same calendar.
+
+- However, calculating the odd days from 1st Jan 2002 to 1st Jan 2013 gives 0 odd days, fulfilling the condition.
+**Thus, the answer is a) 2013**.
+
